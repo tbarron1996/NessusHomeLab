@@ -27,24 +27,48 @@ Launch the VM:  <br/>
 <img src="https://imgur.com/7kkyg3S.png" height="80%" width="80%" alt="Nessus Vulnerability Steps"/>
 <br />
 <br />
-Enter the number of passes: <br/>
+Install Windows: <br/>
 <img src="https://imgur.com/C3Jcn8v.png" height="80%" width="80%" alt="Nessus Vulnerability Steps"/>
 <br />
 <br />
-Confirm your selection:  <br/>
+Ping VM on main computer(right) to ensure it has connection:  <br/>
 <img src="https://imgur.com/nEzt0BN.png" height="80%" width="80%" alt="Nessus Vulnerability Steps"/>
 <br />
 <br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Nessus Vulnerability Steps"/>
+Download Nessus from the browser (may take some time):  <br/>
+<img src="https://imgur.com/oUU5Pc0.png" height="80%" width="80%" alt="Nessus Vulnerability Steps"/>
 <br />
 <br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Nessus Vulnerability Steps"/>
+Using Nessus, run a scan(with no credentials) on the VM using the IP address:  <br/>
+<img src="https://imgur.com/n0Co73k.png" height="80%" width="80%" alt="Nessus Vulnerability Steps"/>
 <br />
 <br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Nessus Vulnerability Steps"/>
+After scan this is the screen you will get, showing any vulnerabilities on the VM. Since this is a fresh VM there are only a few:  <br/>
+<img src="https://imgur.com/FtxnveW.png" height="80%" width="80%" alt="Nessus Vulnerability Steps"/>
+<br />
+<br />
+Allow the VM to run a scan with credentials: <br/>
+<img src="https://imgur.com/aRxImxL.png" height="80%" width="80%" alt="Nessus Vulnerability Steps"/>
+<br />
+<br />
+With a credential scan there are a lot more vulnerablility problems as with have allowed the computer to scan more of the VM: <br/>
+<img src="https://imgur.com/G1jG9rO.png" height="80%" width="80%" alt="Nessus Vulnerability Steps"/>
+<br />
+<br />
+Download an old version of FireFox onto VM to test for new vulnerbilities: <br/>
+<img src="https://imgur.com/eV8TA9c.png" height="80%" width="80%" alt="Nessus Vulnerability Steps"/>
+<br />
+<br />
+After running scan again with old software there are a lot more vulnerabilities that Nessus shows us: <br/>
+<img src="https://imgur.com/X5WRQ9Q.png" height="80%" width="80%" alt="Nessus Vulnerability Steps"/>
+<br />
+<br />
+Uninstalled FireFox and updated Windows: <br/>
+<img src="https://imgur.com/6i58es6.png" height="80%" width="80%" alt="Nessus Vulnerability Steps"/>
+<br />
+<br />
+AFter uninstalling the old software and updating Windows there are fewer vulnerabilities on the computer: <br/>
+<img src="https://imgur.com/5GA3Pwn.png" height="80%" width="80%" alt="Nessus Vulnerability Steps"/>
 </p>
 
 <!--
